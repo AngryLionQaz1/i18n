@@ -1,0 +1,7 @@
+##主配置信息
+spring:
+  profiles:
+    active: swagger
+logging:
+  level:
+    io.swagger.models.parameters.AbstractSerializableParameter: error

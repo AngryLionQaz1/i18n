@@ -1,0 +1,18 @@
+##swagger 配置
+swagger:
+  enabled: true
+  title: i18n Api
+  ui-config:
+    show-request-headers: true
+  authorization:
+    key-name: authorization
+  docket:
+    test:
+      base-package: com
+  global-operation-parameters[0]:
+    name: Accept-Language
+    description: i18n
+    modelRef: String
+    parameter-type: header
+    required: false
+
